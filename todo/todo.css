@@ -1,0 +1,27 @@
+.div{
+    background-color: black;
+}
+
+.frst_bigHeader{
+    text-align: center; color: green; 
+    margin-top: 10px;
+
+}
+
+input{
+    margin-left: 10px; margin-bottom: 50px;
+}
+
+.btn1{
+    background-color: white; 
+    color: green; 
+    cursor: pointer; 
+    margin-left: 10px;
+}
+
+.btn2{
+    background-color: white; 
+    color: red; 
+    cursor: pointer; 
+    margin-left: 10px;
+}
