@@ -1,5 +1,5 @@
-.div{
-    background-color: black;
+form{
+    background-color: burlywood;
 }
 
 .frst_bigHeader{
@@ -8,20 +8,16 @@
 
 }
 
-input{
-    margin-left: 10px; margin-bottom: 50px;
+.div{
+    margin-left: 10px; margin-bottom: 10px;
+}
+.div2{
+    margin-left: 10px; margin-bottom: 25px;
 }
 
-.btn1{
-    background-color: white; 
-    color: green; 
-    cursor: pointer; 
-    margin-left: 10px;
+.addbtn{
+    color: green;
+    background-color: black;
+    cursor: pointer;
 }
 
-.btn2{
-    background-color: white; 
-    color: red; 
-    cursor: pointer; 
-    margin-left: 10px;
-}

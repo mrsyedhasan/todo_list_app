@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO APP</title>
     <link rel="todo stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 
 <body class="container-fluid">
-    <div class="div">
-        
+  
         <form action="">
             <h1 class="frst_bigHeader">
                 To Do List!
             </h1>
-
-                <table class="table">
-                    <tr><input type="text" maxlength="50" size="35"></tr>
-                    <button class="btn1" type="button">ADD</button>
-                    <button class="btn2" type="button">REMOVE</button>
-                </table>
+        <div class="div">
+            <tr><input type="text" maxlength="50" placeholder="List Your Item!"></tr>
+            <button class="addbtn" type="button"><i class="fa fa-plus-square"></i></button>
+        </div> 
+        
+        <div class="container">
+            <input type="text" class="item_input" disabled>
+            <button class="editbtn" type="button">Edit</button>
+            <button class="removebtn" type="button">Remove</button>
+        </div>
+    
                 
         </form>
-
-    </div>
     
     <script src="todo.js"></script>
 </body>
